@@ -26,16 +26,19 @@ public class Electroménagers extends Article implements  Susceptible_solde{
 	
 	
 	// méthodes à définir
-	public void lancer_solde() {
-		// TODO Auto-generated method stub
+	public void lancer_solde(float pers1) {
+		 prix_vente = prix_achat - (prix_achat * pers1 /100) ;
 		
 	}
 	
 
-	public void terminer_solde() {
-		// TODO Auto-generated method stub
+	public void terminer_solde(float pers2) {
+		prix_vente = prix_achat + (prix_achat * pers2 /100) ;
 		
 	}
+
+	
+	
 	
 	
 	

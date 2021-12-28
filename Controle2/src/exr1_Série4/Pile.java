@@ -39,5 +39,8 @@ public class Pile {
 		}
 		catch(PileVide e) { System.out.println(); }
 		}
+		
+		
 		}
+
 
